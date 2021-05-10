@@ -1,0 +1,9 @@
+@mixin hook-text-lead {
+    font-family: $font-ubuntu;
+    font-weight: $medium;
+}
+
+@mixin hook-text-large {
+    font-family: $font-ubuntu;
+    font-weight: $medium;
+}

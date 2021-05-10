@@ -1,0 +1,21 @@
+[data-uk-lightbox] a {
+	cursor: zoom-in;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+
+	&::before,
+	&::after {
+		box-sizing: border-box;
+	}
+}
+
+.icon-wave {
+	z-index: -1;
+}

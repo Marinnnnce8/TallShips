@@ -1,0 +1,52 @@
+@media print {
+
+	.header,
+	.footer,
+	.uk-button,
+	.uk-breadcrumb,
+	.uk-pagination,
+	.uk-modal,
+	.nb-cookie,
+	.nb-form,
+	.banner,
+	.gallery,
+	.icon,
+	.partners {
+		display: none !important;
+	}
+
+	.latest-news {
+		margin: 0;
+
+		li {
+			border: 0 !important;
+			padding: 0;
+		}
+	}
+
+	.uk-accordion li {
+		padding: 0;
+	}
+
+	@media (min-width: $breakpoint-small) {
+		.uk-accordion {
+			margin-top: 25px;
+		}
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		.uk-section {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	.uk-accordion-content {
+		display: block !important;
+		margin-top: 15px !important;
+	}
+
+	.uk-accordion-title {
+		text-decoration: none !important;
+	}
+}

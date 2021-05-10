@@ -1,0 +1,206 @@
+{{#> main}}
+	{{#*inline "main"}}
+
+	{{#> content size="xsmall" class="uk-position-relative uk-position-z-index"}}
+		{{#*inline "body"}}
+
+		<p class="uk-text-lead">People all across Shetland and beyond, look forward to the return of The Tall Ships Races at Lerwick Harbour from 26 to 29 July 2023.</p>
+
+		<p>With previous experience in hosting the Races in 1999 and 2011, there is great excitement building on bringing the series back to the North Sea again.</p>
+		<p>The Tall Ships Races is Europe’s largest free, family festival, held every summer in European waters, offering an exciting racecourse for a magnificent fleet of participating vessels, crewed by thousands of young people. This prestigious event showcases Sail Training International’s values of fostering international friendships and providing life changing experiences for young people.</p>
+		<p>There will be a range of opportunities for community participation and enjoyment leading up to and including the four days of activities in port.</p>
+		<p><strong>We look forward to updating you with information on how you can get involved with the 2023 Tall Ships Races event at Lerwick in due course.</strong></p>
+
+		{{/inline}}
+	{{/content}}
+
+	{{#> content size="xsmall"}}
+		{{#*inline "body"}}
+
+		<ul data-uk-accordion>
+			<li class="uk-open">
+				<a class="uk-accordion-title uk-flex uk-flex-between uk-flex-middle" href="#">Nec habitant cursus 
+					<span role="presentation" class="uk-position-relative uk-border-circle uk-inline-flex"></span>
+				</a>
+				<div class="uk-accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, phasellus convallis non ultrices. Sed euismod vel mi suscipit fringilla. Morbi eget a eu ut est. Adipiscing suspendisse varius consectetur molestie pharetra ipsum odio amet. Malesuada duis.</p>
+				</div>
+			</li>
+			<li>
+				<a class="uk-accordion-title uk-flex uk-flex-between uk-flex-middle" href="#">Nec habitant cursus 
+					<span role="presentation" class="uk-position-relative uk-border-circle uk-inline-flex"></span>
+				</a>
+				<div class="uk-accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, phasellus convallis non ultrices. Sed euismod vel mi suscipit fringilla. Morbi eget a eu ut est. Adipiscing suspendisse varius consectetur molestie pharetra ipsum odio amet. Malesuada duis.</p>
+				</div>
+			</li>
+			<li>
+				<a class="uk-accordion-title uk-flex uk-flex-between uk-flex-middle" href="#">Nec habitant cursus 
+					<span role="presentation" class="uk-position-relative uk-border-circle uk-inline-flex"></span>
+				</a>
+				<div class="uk-accordion-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, phasellus convallis non ultrices. Sed euismod vel mi suscipit fringilla. Morbi eget a eu ut est. Adipiscing suspendisse varius consectetur molestie pharetra ipsum odio amet. Malesuada duis.</p>
+				</div>
+			</li>
+		</ul>
+
+		{{/inline}}
+	{{/content}}
+
+	{{#> ukSection heading="Latest News" sectionClass="latest-news" size="xsmall"}}
+		{{#*inline "out"}}
+
+		<ul class="uk-padding-remove-left">
+			<li class="uk-flex uk-flex-middle">
+				<div class="uk-flex uk-flex-top uk-flex-wrap uk-position-relative">
+					<a href="#" class="uk-position-cover" aria-label="Find out more about Festivities Draw To A Close After A Memorable Weekend At The Tall Ships Races 2011 - Lerwick"></a>
+					<span class="uk-text-large uk-width-1-1 uk-flex">
+						{{> renderIcon name="calendar" class="icon-left uk-position-relative" viewBox="19 21"}}
+						May 04, 2021
+					</span>
+					<p class="uk-margin-remove-top">Festivities Draw To A Close After A Memorable Weekend At The Tall Ships Races 2011 - Lerwick</p>
+				</div>
+			</li>
+			<li class="uk-flex uk-flex-middle">
+				<div class="uk-flex uk-flex-top uk-flex-wrap uk-position-relative">
+					<a href="#" class="uk-position-cover" aria-label="Find out more about Festivities Draw To A Close After A Memorable Weekend At The Tall Ships Races 2011 - Lerwick"></a>
+					<span class="uk-text-large uk-width-1-1 uk-flex">
+						{{> renderIcon name="calendar" class="icon-left uk-position-relative" viewBox="19 21"}}
+						May 04, 2021
+					</span>
+					<p class="uk-margin-remove-top">Festivities Draw To A Close After A Memorable Weekend At The Tall Ships Races 2011 - Lerwick</p>
+				</div>
+			</li>
+			<li class="uk-flex uk-flex-middle">
+				<div class="uk-flex uk-flex-top uk-flex-wrap uk-position-relative">
+					<a href="#" class="uk-position-cover" aria-label="Find out more about Festivities Draw To A Close After A Memorable Weekend At The Tall Ships Races 2011 - Lerwick"></a>
+					<span class="uk-text-large uk-width-1-1 uk-flex">
+						{{> renderIcon name="calendar" class="icon-left uk-position-relative" viewBox="19 21"}}
+						May 04, 2021
+					</span>
+					<p class="uk-margin-remove-top">Festivities Draw To A Close After A Memorable Weekend At The Tall Ships Races 2011 - Lerwick</p>
+				</div>
+			</li>
+		</ul>
+
+		{{/inline}}
+	{{/ukSection}}
+
+	{{#> nbForm size="xsmall"}}
+		{{#*inline "form"}}
+
+		<div>
+
+			<form id="nb-form-{{page.name}}" class="uk-form-stacked InputfieldForm" method="post" data-uk-nb-form novalidate data-colspacing="1">
+
+				<h2>Sign up to our newsletter</h2>
+
+				{{#> ukGrid class="uk-grid uk-child-width-1-2@m"}}
+					{{#*inline "cells"}}
+
+					{{> nbInput label="First Name" name="name" title="Please enter your first name"}}
+
+					{{> nbInput label="Last Name" name="last_name" title="Please enter your last name"}}
+
+					{{> nbInput label="Email Address<span> *</span>" name="email" type="email" title="Please enter a valid email address"}}
+
+					{{> nbInput label="Address" name="address" title="Please enter your address"}}
+
+					{{> nbInput label="Postcode" name="postcode" title="Please enter your postcode"}}
+
+					{{> nbInput label="Telephone Number" title="Please enter your telephone number" name="tel" type="tel" }}
+
+					{{/inline}}
+				{{/ukGrid}}
+
+				<h3>Marketing Permissions</h3>
+
+				<p class="uk-text-small uk-text-primary">Please select all the ways you would like to hear from the Tall Ships Races :</p>
+
+				<div class="uk-margin uk-child-width-auto">
+					<div class="uk-grid-small uk-margin-bottom">
+						<label><input class="uk-checkbox" type="checkbox" checked> Email</label>
+					</div>
+					<div class="uk-grid-small uk-margin-bottom">
+						<label><input class="uk-checkbox" type="checkbox"> Direct Mail</label>
+					</div>
+					<div class="uk-grid-small uk-margin-bottom">
+						<label><input class="uk-checkbox" type="checkbox"> Telephone</label>
+					</div>
+				</div>
+
+				<p class="uk-text-small uk-text-primary">You can unsubscribe at any time by clicking the link in the footer of our emails.</p>
+
+				<p class="uk-text-small uk-text-primary">We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="#" target="_blank" rel="noreferrer noopener">Learn more about Mailchimp's privacy practices here.</a></p>
+
+			</form>
+
+		</div>
+
+		{{/inline}}
+	{{/nbForm}}	
+
+	{{#> content size="xsmall"}}
+		{{#*inline "body"}}
+		<h2 class="uk-margin-remove-bottom">Find out more</h2>
+
+		<p class="uk-margin-medium-bottom">For more information, on previous races, view the 2011 event website.</p>
+
+		{{> ukButton label="The Tall Ships Races 2011" class="uk-border-pill" size="large" style="primary"}}
+
+		{{/inline}}
+	{{/content}}
+
+	
+	{{> gallery items=items.gallery}}
+
+	{{#> content size="xsmall" class="partners"}}
+		{{#*inline "body"}}
+		<h2 class="uk-text-center">Partners</h2>
+
+		{{#> ukGrid class="uk-grid uk-flex-center uk-child-width-1-4@s"}}
+			{{#*inline "cells"}}
+				<div>
+					<div class="uk-position-relative uk-border-circle uk-overflow-hidden">
+						<a href="#" class="uk-position-cover" target="_blank" rel="noreferrer noopener" aria-label="Find out more about Sail Training International"></a>
+						<img class="uk-border-circle" src="./img/ellipse-1.png" loading="lazy" width="167" height="168" alt="Sail Training International">
+					</div>
+				</div>
+				<div>
+					<div class="uk-position-relative uk-border-circle uk-overflow-hidden">
+						<a href="#" class="uk-position-cover" target="_blank" rel="noreferrer noopener" aria-label="Find out more about Lerwick Port Authority"></a>
+						<img class="uk-border-circle" src="./img/ellipse-2.png" loading="lazy" width="167" height="168" alt="Lerwick Port Authority">
+					</div>
+				</div>
+				<div>
+					<div class="uk-position-relative uk-border-circle uk-overflow-hidden">
+						<a href="#" class="uk-position-cover" target="_blank" rel="noreferrer noopener" aria-label="Find out more about Shatland Islands Council"></a>
+						<img class="uk-border-circle" src="./img/ellipse-3.png" loading="lazy" width="167" height="168" alt="Shatland Islands Council">
+					</div>
+				</div>
+				<div>
+					<div class="uk-position-relative uk-border-circle uk-overflow-hidden">
+						<a href="#" class="uk-position-cover" target="_blank" rel="noreferrer noopener" aria-label="Find out more about Event Scotland"></a>
+						<img class="uk-border-circle" src="./img/ellipse-4.png" loading="lazy" width="167" height="168" alt="Event Scotland">
+					</div>
+				</div>
+				<div>
+					<div class="uk-position-relative uk-border-circle uk-overflow-hidden">
+						<a href="#" class="uk-position-cover" target="_blank" rel="noreferrer noopener" aria-label="Find out more about Sail Training Shatland"></a>
+						<img class="uk-border-circle" src="./img/ellipse-5.png" loading="lazy" width="167" height="167" alt="Sail Training Shatland">
+					</div>
+				</div>
+				<div>
+					<div class="uk-position-relative uk-border-circle uk-overflow-hidden">
+						<a href="#" class="uk-position-cover" target="_blank" rel="noreferrer noopener" aria-label="Find out more about The SWAN Trust"></a>
+						<img class="uk-border-circle" src="./img/ellipse-6.png" loading="lazy" width="167" height="167" alt="The SWAN Trust">
+					</div>
+				</div>
+			{{/inline}}
+		{{/ukGrid}}			
+
+		{{/inline}}
+	{{/content}}
+
+	{{/inline}}
+{{/main}}

@@ -1,0 +1,50 @@
+.latest-news {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    svg {
+        width: 19px;
+        height: 21px;
+        color: $warning;
+        margin-right: 15px;
+        top: 3px;
+    }
+
+    .uk-text-large,
+    p {
+        color: $primary;
+    }
+
+    .uk-text-large {
+        max-width: 160px;
+    }
+
+    p {
+        margin-left: 35px;
+    }
+
+    li {
+        padding: 24px 0 5px 20px;
+        border-bottom: 1px solid $blue-light-2;
+
+        * {
+            transition: $transition;
+        }
+
+        &:first-of-type {
+            border-top: 1px solid $blue-light-2;
+        }
+
+        @include hover {
+
+            .uk-text-large,
+            p {
+                color: rgba($primary, .75);
+            }
+
+            svg {
+                color: rgba($warning, .75);
+            }
+        }
+    }
+}

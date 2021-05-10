@@ -1,0 +1,15 @@
+@mixin hook-button {
+    font-family: $font-ubuntu;
+    font-weight: $medium;
+    text-transform: none;
+    transition: $transition;
+}
+
+@mixin hook-button-large {
+    line-height: 65px;
+
+    @media (min-width: $breakpoint-small) {
+        padding: 0 45px;
+        font-size: 18px;
+    }
+}

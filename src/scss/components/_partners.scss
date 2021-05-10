@@ -1,0 +1,41 @@
+.partners {
+    .uk-grid>div>div {
+        transition: $transition;
+
+        @include hover {
+            transform: scale(1.05);
+        }
+    }
+
+    img,
+    a {
+        margin: 0 auto;
+        max-width: 115px;
+        width: 100%;
+        display: block;
+    }
+
+    @media (min-width: $breakpoint-small) {
+
+        img,
+        a {
+            max-width: 167px;
+        }
+    }
+
+    @media (max-width: $breakpoint-xsmall-max) {
+        .uk-grid {
+            margin-left: -15px;
+
+            >* {
+                padding-left: 15px;
+            }
+        }
+
+        *+.uk-grid-margin,
+        .uk-grid+.uk-grid,
+        .uk-grid>.uk-grid-margin {
+            margin-top: 15px;
+        }
+    }
+}

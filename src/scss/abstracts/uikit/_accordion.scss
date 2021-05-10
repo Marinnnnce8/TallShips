@@ -1,0 +1,55 @@
+@mixin hook-accordion {
+    margin-top: 60px;
+    margin-bottom: 45px;
+
+    li {
+        background-color: $blue-light;
+        border-radius: 10px;
+        padding: 18px 30px 20px;
+    }
+
+    .uk-open .uk-accordion-title>span::after {
+        opacity: 0;
+    }
+
+    @media (min-width: $breakpoint-small) {
+        margin-top: 120px;
+    }
+}
+
+.uk-accordion-content>:last-child {
+    margin-bottom: 10px;
+}
+
+@mixin hook-accordion-title {
+    font-family: $font-ubuntu;
+    font-weight: $medium;
+    transition: $transition;
+
+    >span {
+        width: 20px;
+        height: 20px;
+        background-color: $primary;
+
+        &::before,
+        &::after {
+            position: absolute;
+            content: '';
+            background-color: $blue-light;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        &::before {
+            width: 12px;
+            height: 3px;
+        }
+
+        &::after {
+            width: 3px;
+            height: 12px;
+        }
+    }
+}

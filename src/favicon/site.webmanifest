@@ -1,0 +1,19 @@
+{
+    "name": "Tall Ships’ Races 2023",
+    "short_name": "Tall Ships",
+    "description": "",
+    "start_url": "/index.html",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "en-gb",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

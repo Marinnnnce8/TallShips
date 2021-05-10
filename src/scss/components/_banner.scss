@@ -1,0 +1,31 @@
+.banner {
+	@media (min-width: $breakpoint-mobile) {
+		+.content {
+			margin-top: -100px;
+		}
+	}
+
+	@media (min-width: $breakpoint-small) {
+		+.content {
+			margin-top: -140px;
+		}
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		+.content {
+			margin-top: -205px;
+		}
+	}
+
+	@media (min-width: $breakpoint-large) {
+		+.content {
+			margin-top: -265px;
+		}
+	}
+
+	@media (min-width: $breakpoint-xlarge) {
+		+.content {
+			margin-top: -330px;
+		}
+	}
+}
