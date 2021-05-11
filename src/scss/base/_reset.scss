@@ -19,3 +19,33 @@ body {
 .icon-wave {
 	z-index: -1;
 }
+
+.blue-wave {
+	clip-path: url('#blueWave');
+	background-color: $blue-light;
+	top: 50px;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 849px;
+
+	@media (min-width: $breakpoint-mobile) {
+		top: 180px;
+	}
+
+	@media (min-width: $breakpoint-small) {
+		top: 250px;
+	}
+
+	@media (min-width: 768px) {
+		top: 300px;
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		top: 450px;
+	}
+
+	@media (min-width: $breakpoint-large) {
+		top: 545px;
+	}
+}

@@ -1,12 +1,17 @@
+@mixin hook-base-h1 {
+    color: $white;
+
+    span {
+        font-family: $font-default;
+        font-weight: $medium;
+    }
+}
+
 @mixin hook-base-h2 {
-    font-family: $font-ubuntu;
-    font-weight: $medium;
     margin-bottom: 30px;
 }
 
 @mixin hook-base-h3 {
-    font-family: $font-ubuntu;
-    font-weight: $medium;
     margin-bottom: 10px;
 }
 

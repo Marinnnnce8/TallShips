@@ -67,6 +67,11 @@ $global-control-large-height: 55px;
 //
 // Base
 //
+$base-heading-font-family: $font-ubuntu;
+$base-heading-font-weight: $medium;
+$base-h1-font-size: 22px;
+$base-h1-font-size-m: 67px;
+$base-h1-line-height: 1.2;
 $base-body-font-weight: 400;
 $base-link-hover-text-decoration: underline;
 $base-strong-font-weight: $bold;
@@ -74,7 +79,9 @@ $base-code-color: inherit;
 $base-em-color: inherit;
 $base-selection-background: $secondary;
 $base-h2-font-size-m: 34px;
+$base-h2-line-height: 1.7;
 $base-h3-font-size: 20px;
+$base-h3-line-height: 1.7;
 
 
 //

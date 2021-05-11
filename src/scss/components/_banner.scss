@@ -1,31 +1,109 @@
 .banner {
+	img {
+		max-width: 71%;
+	}
+
+	&-text {
+		clip-path: url('#bannerText');
+		background-color: $primary;
+		max-width: 1200px;
+		width: calc(100% - 10px);
+		padding: 40px 65px 0;
+		height: 180px;
+		margin-top: -90px;
+	}
+
+	.uk-h2 {
+		color: $warning;
+		font-family: $font-default;
+	}
+
 	@media (min-width: $breakpoint-mobile) {
-		+.content {
-			margin-top: -100px;
+		img {
+			max-width: 80%;
+		}
+
+		&-text {
+			padding: 85px 75px 0;
+			margin-top: -165px;
+			height: 285px;
 		}
 	}
 
 	@media (min-width: $breakpoint-small) {
-		+.content {
-			margin-top: -140px;
+		&-text {
+			padding: 90px 120px 0;
+			height: 330px;
+			width: calc(100% - 40px);
+		}
+	}
+
+	@media (min-width: 768px) {
+		&-text {
+			height: 340px;
+			margin-top: -175px;
 		}
 	}
 
 	@media (min-width: $breakpoint-medium) {
-		+.content {
-			margin-top: -205px;
+		img {
+			max-width: 90%;
+		}
+
+		&-text {
+			padding: 90px 160px 0;
+			margin-top: -220px;
+			height: 400px;
+		}
+	}
+
+	@media (min-width: 1050px) {
+		img {
+			max-width: 85%;
+		}
+
+		&-text {
+			margin-top: -240px;
 		}
 	}
 
 	@media (min-width: $breakpoint-large) {
-		+.content {
-			margin-top: -265px;
+		img {
+			max-width: 1130px;
+		}
+
+		&-text {
+			margin-top: -235px;
+			padding: 90px 200px 0;
+			height: 470px;
 		}
 	}
 
-	@media (min-width: $breakpoint-xlarge) {
-		+.content {
-			margin-top: -330px;
+	@media (max-width: $breakpoint-large) and (min-width: $breakpoint-medium) {
+		h1 {
+			font-size: 52px;
+		}
+	}
+
+	@media (max-width: $breakpoint-medium) and (min-width: $breakpoint-small) {
+		h1 {
+			font-size: 36px;
+		}
+	}
+
+	@media (max-width: $breakpoint-xsmall-max) {
+		.uk-h2 {
+			font-size: 18px;
+		}
+	}
+
+	@media (max-width: $breakpoint-mobile) {
+		.uk-h2 {
+			font-size: 16px;
+		}
+
+		h1 {
+			font-size: 20px;
 		}
 	}
 }
